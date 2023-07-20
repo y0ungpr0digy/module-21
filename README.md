@@ -13,7 +13,7 @@ What variable(s) are the target(s) for your model?
 
 -----The target variable is the 'IS_SUCCESSFUL' column from application_df
 
-Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither targets nor features for the datase
+-----Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither targets nor features for the datase
 
 
 What variable(s) are the features for your model?

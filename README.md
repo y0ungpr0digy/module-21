@@ -12,20 +12,24 @@ Data Preprocessing
 What variable(s) are the target(s) for your model?
 
 -----The target variable is the 'IS_SUCCESSFUL' column from application_df
+
 Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither targets nor features for the datase
 
 
 What variable(s) are the features for your model?
+
 The feature variables are every other column from application_df --> this was defined by dropping the 'IS_SUCCESSFUL' column from the original dataframe
 
 
 What variable(s) should be removed from the input data because they are neither targets nor features?
+
 -----Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither targets nor features for the dataset.
 
 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
+
 --In the first attempt, i used 8 hidden_nodes_layer1 and 5 hidden_nodes_layer2 -- these were just random guesses from which to iterate upon in the second try.
 
 ------I was not able to achieve the 75% model accuracy target

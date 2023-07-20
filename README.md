@@ -20,7 +20,9 @@ The feature variables are every other column from application_df --> this was de
 
 
 What variable(s) should be removed from the input data because they are neither targets nor features?
-Compiling, Training, and Evaluating the Model
+-----Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither targets nor features for the dataset.
+
+
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
